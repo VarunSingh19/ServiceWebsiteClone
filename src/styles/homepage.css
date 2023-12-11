@@ -1,0 +1,172 @@
+.typography {
+  color: var(--Black, #000);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.hobby {
+  color: var(--Blue-1, var(--Black, #0096C8));
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+.passion {
+  color: var(--Purple-1, var(--Black, #8064A2));
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+
+p {
+  color: var(--Black, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  /* 214.286% */
+  letter-spacing: 0.28px;
+}
+
+.leftimage {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.rightimage {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 0.314px 0px 0.208px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.custom-card:hover {
+  background: linear-gradient(to right, #0096C8 0 40%, #8064A2 90%);
+}
+
+
+
+
+/* YourComponent.css */
+
+
+#pButton {
+  float: left;
+}
+
+#timeline {
+  width: 90%;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#pButton {
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+#playhead {
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: -3px;
+  background: black;
+  cursor: pointer;
+}
+
+
+/* Style for li elements */
+ul {
+  list-style-type: none;
+  color: black;
+  
+}
+
+li {
+  color: gray;
+  text-decoration: none;
+  
+}
+li:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+/* Style for social icons */
+.social-icons {
+  display: flex;
+  justify-content: space-between; /* This ensures equal margin between the icons */
+  
+}
+
+
+
+h5{
+  margin-left: 30px;
+  color: rgb(0, 0, 0);
+
+}
+.fab, .fas{
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+
+.invite-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.invite-container input {
+  margin-right: 0px; /* Adjust the margin as needed */
+}
+
+.invite-button {
+  background-color: #3498db; /* Add your desired background color */
+  color: #fff; /* Set text color to white or your preferred color */
+  border: none;
+  padding: 3px; /* Adjust padding as needed */
+  cursor: pointer;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.invite-button:hover {
+  background-color: #2980b9; /* Change color on hover */
+}
+
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2; /* Add your desired background color */
+  color: #555; /* Add your desired text color */
+  margin-bottom: 0px;
+
+}

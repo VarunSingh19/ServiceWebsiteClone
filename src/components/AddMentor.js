@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Button,Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Make sure to import the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 const AddMentor = () => {
     return (

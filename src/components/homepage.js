@@ -24,7 +24,7 @@ const Homepage = () => {
             <p>
               If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products, services or events. Hop on your hobbyhorse and enjoy the ride.
             </p>
-            <div className='d-flex'>
+            <div className='d-flex justify-content-center'>
               <img src={leftimage} className="leftimage" alt="Image 1" />
               <img src={rightimage} className="rightimage" alt="Image 2" />
             </div>

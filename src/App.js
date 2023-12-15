@@ -6,17 +6,20 @@ import AddMentor from './components/AddMentor';
 import Testimonials from './components/Testimonials';
 import Endpage from './components/Endpage';
 import Footer from './components/Footer';
+import './App.css'; 
+
 function App() {
   return (
     <>
-    
       <AppNavbar />
-      <Homepage />
-      <Cards />
-      <AddMentor />
-      <Testimonials />
-      <Endpage />
-      <Footer/>
+      <div className="content">
+        <Homepage />
+        <Cards />
+        <AddMentor />
+        <Testimonials />
+        <Endpage />
+        <Footer/>
+      </div>
     </>
   );
 }

@@ -6,7 +6,7 @@ import '../styles/homepage.css'
 const Footer = () => {
     return (
         <footer>
-            {/* <Container> */}
+            <Container>
             <Row>
                 {/* Column 1 */}
                 <Col md={3}>
@@ -86,9 +86,10 @@ const Footer = () => {
                     </Row>
                 </Col>
             </Row>
+            </Container>
             <div className="copyright">
                 © Purple Cues Private Limited
-            </div>
+                </div>
         </footer>
     );
 };

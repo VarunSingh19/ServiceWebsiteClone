@@ -6,7 +6,7 @@ import '../styles/navbar.css'
 
 const AppNavbar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top' >
             {/* <Container> */}
                 <Container fluid className="d-flex justify-content-between align-items-center">
                     <Navbar.Brand href="#">

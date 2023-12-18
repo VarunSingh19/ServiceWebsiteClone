@@ -34,7 +34,7 @@ const Footer = () => {
                 </Col>
 
                 {/* Column 3 */}
-                <Col md={3}>
+                <Col md={2}>
                     <h5>Quick Links</h5>
                     <ul>
                         <li>Listings</li>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </Col>
 
                 {/* Column 4 */}
-                <Col md={3}>
+                <Col md={4}>
                     <Row>
                         <Col>
                             <h5>Social Media</h5>
@@ -76,7 +76,7 @@ const Footer = () => {
                     </Row>
                     <Row>
                         <Col>
-                            <div class="invite-container  " style={{ marginLeft: '30px', marginTop: '15px',marginBottom:'10px' }}>
+                            <div class="invite-container " style={{ marginLeft: '30px', marginTop: '15px',marginBottom:'10px' }}>
                                 {/* Add an input field for inviting friends */}
                                 <input type="email" placeholder="Email ID" />
                                 <button class="invite-button">Invite</button>

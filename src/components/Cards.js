@@ -51,7 +51,7 @@ const MyCard = ({ id, title, iconUrl, paragraph, buttonText, index }) => {
           <Card.Text>{paragraph}</Card.Text>
 
           {/* Button without background */}
-          <Button variant="outline-dark">{buttonText}</Button>
+          <Button variant="outline-dark" >{buttonText}</Button>
         </Card.Body>
       </Card>
     </Col>

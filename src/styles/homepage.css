@@ -63,11 +63,6 @@ p {
 } */
 
 
-
-
-/* YourComponent.css */
-
-
 #pButton {
   float: left;
 }
@@ -121,7 +116,7 @@ li:hover {
 /* Style for social icons */
 .social-icons {
   display: flex;
-  justify-content: space-between; /* This ensures equal margin between the icons */
+  justify-content: space-between; 
   
 }
 
@@ -140,24 +135,24 @@ h5{
 
 .invite-container {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center; 
 }
 
 .invite-container input {
-  margin-right: 0px; /* Adjust the margin as needed */
+  margin-right: 0px; 
 }
 
 .invite-button {
-  background-color: #3498db; /* Add your desired background color */
-  color: #fff; /* Set text color to white or your preferred color */
+  background-color: #3498db; 
+  color: #fff; 
   border: none;
-  padding: 3px; /* Adjust padding as needed */
+  padding: 3px; 
   cursor: pointer;
   border-radius: 0px 8px 8px 0px;
 }
 
 .invite-button:hover {
-  background-color: #2980b9; /* Change color on hover */
+  background-color: #2980b9; 
 }
 
 
@@ -165,8 +160,11 @@ h5{
   margin-top: 20px;
   text-align: center;
   padding: 20px;
-  background-color: #f2f2f2; /* Add your desired background color */
-  color: #555; /* Add your desired text color */
+  background-color: #f2f2f2; 
+  color: #555;
   margin-bottom: 0px;
 
 }
+
+
+
